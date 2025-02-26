@@ -1,0 +1,74 @@
+{
+  "@context": {
+    "@language": "en-us",
+    "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+    "CIP119": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0119/README.md#",
+    "hashAlgorithm": "CIP100:hashAlgorithm",
+    "body": {
+      "@id": "CIP119:body",
+      "@context": {
+        "references": {
+          "@id": "CIP119:references",
+          "@container": "@set",
+          "@context": {
+            "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+            "Identity": "CIP119:IdentityReference",
+            "Link": "CIP119:LinkReference",
+            "Other": "CIP100:OtherReference",
+            "label": "CIP100:reference-label",
+            "uri": "CIP100:reference-uri",
+            "referenceHash": {
+              "@id": "CIP119:referenceHash",
+              "@context": {
+                "hashDigest": "CIP119:hashDigest",
+                "hashAlgorithm": "CIP100:hashAlgorithm"
+              }
+            }
+          }
+        },
+        "paymentAddress": "CIP119:paymentAddress",
+        "givenName": "CIP119:givenName",
+        "image": "CIP119:image",
+        "objectives": "CIP119:objectives",
+        "motivations": "CIP119:motivations",
+        "qualifications": "CIP119:qualifications",
+        "doNotList": "CIP119:doNotList"
+      }
+    },
+    "authors": {
+      "@id": "CIP100:authors",
+      "@container": "@set",
+      "@context": {
+        "name": "http://xmlns.com/foaf/0.1/name",
+        "witness": {
+          "@id": "CIP100:witness",
+          "@context": {
+            "witnessAlgorithm": "CIP100:witnessAlgorithm",
+            "publicKey": "CIP100:publicKey",
+            "signature": "CIP100:signature"
+          }
+        }
+      }
+    }
+  },
+  "hashAlgorithm": "blake2b-256",
+  "body": {
+    "givenName": "coolcriminal",
+    "motivations": "My passion for blockchain technology and decentralized governance has driven my career for over five years. As a Blockchain Engineer, NFT creator, and full-stack developer, I have built and contributed to projects that push the boundaries of decentralization, security, and user empowerment across multiple chains. Now, I want to leverage my expertise to play an active role in shaping governance as a DRep.\n\nWhy I Want to Be a DRep\nI believe that decentralized governance is the key to building trustless, transparent, and resilient ecosystems. With my background in smart contract development (Solidity and other languages), blockchain gaming, and NFT marketplace design, I have seen firsthand how decision-making impacts the sustainability of projects. I want to bring a builder’s perspective to governance—ensuring that decisions are technically sound, fair, and aligned with the long-term vision of the ecosystem.\n\nPersonal and Professional Experiences to Share\nTechnical Expertise in Blockchain",
+    "objectives": "Hello, I, Fahim Ahamed, am a highly skilled blockchain developer and full-stack software engineer, specializing in advanced blockchain platforms such as Ethereum, Binance Smart Chain (BSC), Polygon, Solana, SEI, Cardano, Polkadot, Optimism, and Avalanche. My expertise lies in designing and implementing smart contracts, Decentralized Applications (DApps), and DeFi protocols, leveraging cutting-edge technologies to deliver secure, scalable, and efficient solutions.\nI am proficient in programming languages including Solidity, Rust, Aiken-lang, Vyper, and Clarity, enabling the development of robust smart contracts tailored to complex use cases such as token creation, governance, staking, and cross-chain interoperability. My skills extend to implementing token standards like ERC-20, ERC-721, ERC-1155, and BEP-20, as well as integrating Layer-2 solutions, oracles, and decentralized storage systems.\nWith a comprehensive understanding of consensus mechanisms, cryptographic protocols, and block",
+    "paymentAddress": "addr1qxewzwlyjt4cpza8396hwx4xhw7m8wk9sa8l2fwfvzkzk4qeu4eysq0mc7dz7zq2mry57vznrf68xa5yef0t7t0nuynsxu9w06",
+    "qualifications": "I bring a strong technical background, governance awareness, and hands-on experience in blockchain ecosystems, making me well-suited to serve as a Delegated Representative (DRep). My qualifications include:\n\n1. Blockchain & Smart Contract Expertise\n5+ years of experience in blockchain development, specializing in smart contracts (Solidity and other languages) across multiple chains.\nDevelopment and auditing of secure, scalable smart contracts for DeFi, NFT marketplaces, and blockchain gaming.\nIn-depth knowledge of EVM-based and non-EVM chains, interoperability, and Layer 2 solutions.\n2. Full-Stack Development & Decentralized Applications (dApps)\nBuilt and deployed NFT platforms, DeFi protocols, and blockchain-based gaming projects using modern full-stack technologies.\nStrong understanding of off-chain and on-chain integrations, tokenomics, and governance models.\n3. Experience with Decentralized Governance & Community Engagement\nActively involved in DAO structures, voting mechanisms, an",
+    "references": [
+      {
+        "@type": "Link",
+        "label": "Official Website: https://coolcriminals.netlify.app/ and Below Github Link",
+        "uri": "https://github.com/blockchainwork2025"
+      },
+      {
+        "@type": "Identity",
+        "label": "X/Twitter",
+        "uri": "https://x.com/Blockchain55355 "
+      }
+    ]
+  }
+}
